@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookieCrave - Album</title>
+    <link rel="icon" href="../images/cookie-icon.svg" type="image/svg+xml">
+    <link href="../css/output.css" rel="stylesheet">
+</head>
+<body class="bg-cookie-body text-cookie-text">
+    <!-- start Header,Navbar section  -->
+<header class="py-3 border-b border-b-[#7B5E57] bg-cookie-foot-nav fixed w-full left-0 right-0">
+  <nav class="container mx-auto px-4 ">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+  <img src="../images/cookie-icon.svg" alt="Cookie Logo" class="w-8 h-8">
+  <span class="font-bold text-2xl">CookieCrave</span>
+</div>
+      <ul class="items-center gap-10 hidden md:flex font-semibold text-sm">
+  <li><a href="index.html" class="cursor-pointer hover-link">Home</a></li>
+  <li><a href="about.html" class="cursor-pointer hover-link">About</a></li>
+  <li><a href="services.html" class="cursor-pointer hover-link">Services</a></li>
+  <li><a href="contact.html" class="cursor-pointer hover-link">Contact</a></li>
+  <li><a href="album.html" class="cursor-pointer hover-link">Album</a></li>
+</ul>
+      <div class="hidden md:flex">
+        <a href="contact.html">
+        <button class="bg-yellow-800 py-2 px-5 rounded-xl  font-semibold hover:bg-yellow-600 transition duration-300">
+          Order Now
+        </button>
+        </a>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="md:hidden block cursor-pointer" onclick="toggleMenu()">
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+    </div>
+    
+<ul id="mobile-menu" class="md:hidden hidden flex-col mt-4 text-sm font-semibold">
+  <li><a href="index.html" class="hover-link mb-5">Home</a></li>
+  <li><a href="about.html" class="hover-link mb-5">About</a></li>
+  <li><a href="services.html" class="hover-link mb-5">Services</a></li>
+  <li><a href="contact.html" class="hover-link mb-5">Contact</a></li>
+  <li><a href="album.html" class="hover-link">Album</a></li>
+</ul>
+  </nav>
+</header>
+<!-- end Header,Navbar section  -->
+
+
+ <!-- start album section -->
+  <section class="pt-32 pb-16 px-6 max-w-7xl mx-auto">
+    <h1 class="text-4xl font-bold mb-4 text-center">Cookie Album </h1>
+    <p class="text-center mb-10 max-w-2xl mx-auto">
+      Explore our handcrafted cookie collection made with passion and premium ingredients. Every bite tells a story of flavor, warmth, and joy.
+    </p>
+
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      
+      <div class="bg-cookie-light p-4 rounded-lg shadow-md hover:shadow-lg transition">
+        <img src="../images/Red Relvet.jpg" alt="Red Velvet Cookie" class="rounded-md mb-3 w-full h-48 object-cover"/>
+        <h2 class="text-lg font-bold mb-1">Red Velvet</h2>
+        <p class="text-sm">A rich and vibrant cookie with a soft texture and cream cheese flavor twist.</p>
+      </div>
+
+      
+      <div class="bg-cookie-light p-4 rounded-lg shadow-md hover:shadow-lg transition">
+        <img src="../images/Choco Chip.jpg" alt="Choco Chip Cookie" class="rounded-md mb-3 w-full h-48 object-cover"/>
+        <h2 class="text-lg font-bold mb-1">Choco Chip</h2>
+        <p class="text-sm">Classic and crunchy with generous amounts of gooey dark chocolate chips.</p>
+      </div>
+
+      
+      <div class="bg-cookie-light p-4 rounded-lg shadow-md hover:shadow-lg transition">
+        <img src="../images/Peanut Butter.jpg" alt="Peanut Butter Cookie" class="rounded-md mb-3 w-full h-48 object-cover"/>
+        <h2 class="text-lg font-bold mb-1">Peanut Butter</h2>
+        <p class="text-sm">A buttery delight with a salty-sweet crunch that melts in your mouth.</p>
+      </div>
+
+      
+      <div class="bg-cookie-light p-4 rounded-lg shadow-md hover:shadow-lg transition">
+        <img src="../images/Oatmeal Raisin.jpg" alt="Oatmeal Raisin Cookie" class="rounded-md mb-3 w-full h-48 object-cover"/>
+        <h2 class="text-lg font-bold mb-1">Oatmeal Raisin</h2>
+        <p class="text-sm">Chewy oats combined with plump raisins for a heartwarming classic flavor.</p>
+      </div>
+    </div>
+
+    
+    <div class="mt-16 text-center max-w-3xl mx-auto">
+      <h2 class="text-2xl font-bold mb-3">Our Baking Philosophy</h2>
+      <p class="mb-4">
+        At CookieCrave, we believe in slow baking, fresh ingredients, and love in every recipe. Whether it's a nostalgic classic or a modern twist, our cookies are designed to bring comfort, sweetness, and smiles.
+      </p>
+      <p>
+        Each flavor is tested and perfected to ensure it meets our high standards. We welcome you to visit us or order online and taste the passion in every bite.
+      </p>
+    </div>
+  </section>
+<!-- start album section -->
+
+
+
+    <!-- start footer section  -->
+    <footer class="px-12 py-10 bg-cookie-foot-nav">
+  <div class="w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+    
+    <div>
+      <h3 class="text-lg font-bold mb-2">About CookieCrave</h3>
+      <p class="text-sm">
+        We are passionate about crafting the finest cookies using traditional recipes and natural ingredients.
+        Every bite tells a story of quality and love.
+      </p>
+    </div>
+
+    
+    <section class="flex md:justify-center">
+      <div>
+        <h3 class="text-lg font-bold mb-2">Quick Links</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="hover-link">Home</a></li>
+          <li><a href="about.html" class="hover-link">About</a></li>
+          <li><a href="services.html" class="hover-link">Services</a></li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <div>
+      <h3 class="text-lg font-bold mb-2">Contact Us</h3>
+      <div class="flex items-center text-sm mb-1 space-x-2">
+        <img src="../images/phone-icon.svg" alt="Phone" class="w-5 h-5" />
+        <span>+970 599 123 456</span>
+      </div>
+      <div class="flex items-center text-sm mb-2 space-x-2">
+        <img src="../images/email-icon.svg" alt="Email" class="w-5 h-5" />
+        <span>info@cookiecrave.com</span>
+      </div>
+      <div class="flex mt-2 space-x-4">
+        <a href="#"><img src="../images/facebook-icon.svg" alt="Facebook" class="w-5 h-5" /></a>
+        <a href="#"><img src="../images/instagram-icon.svg" alt="Instagram" class="w-5 h-5" /></a>
+        <a href="#"><img src="../images/tiktok-icon.svg" alt="TikTok" class="w-5 h-5" /></a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="text-center text-sm mt-8 border-t border-[#7B5E57] pt-4">
+    © 2025 CookieCrave. All rights reserved.
+  </div>
+</footer>
+<!-- end footer section  -->
+ <script>
+  function toggleMenu() {
+    const menuList = document.getElementById("mobile-menu");
+    menuList.classList.toggle("hidden");
+  }
+</script>
+</body>
+</html>
